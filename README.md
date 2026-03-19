@@ -6,6 +6,9 @@ A modern Data Warehouse solution built with **SQL Server** to consolidate sales 
 # 🏗️ ARCHITECTURE
 This project implements a **Medallion Architecture** to ensure data integrity and traceability. By following the **Separation of Concerns (SOC)** principle, each layer has a dedicated responsibility with no intention of overlap:
 
+<img width="1037" height="542" alt="image" src="https://github.com/user-attachments/assets/9188e10c-3edd-4777-8239-5c5741494338" />
+
+
 > ### 🥉 Bronze (Raw)
 > Initial ingestion of source `.csv` files (ERP & CRM) without modifications.
 >
