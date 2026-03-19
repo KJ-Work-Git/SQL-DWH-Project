@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.6.4">
+  <diagram name="Page-1" id="S8Yjvnjt_NtS7u5xYFV7">
+    <mxGraphModel dx="1426" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_jX5Z4A8QOtVC8CsfTlR-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="320" width="120" x="10" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_jX5Z4A8QOtVC8CsfTlR-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sources" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_jX5Z4A8QOtVC8CsfTlR-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="320" width="120" x="690" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_jX5Z4A8QOtVC8CsfTlR-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Consume" vertex="1">
+          <mxGeometry height="30" width="60" x="720" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
