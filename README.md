@@ -1,7 +1,8 @@
-📊 SQL Data Warehouse Project
+#📊 SQL Data Warehouse Project
+
 A modern Data Warehouse solution built with SQL Server to consolidate sales data. This project transforms raw ERP and CRM inputs into a refined, data model designed for high-performance analytical reporting.
 
-🏗️ Architecture
+##🏗️ Architecture
 This project implements a Medallion Architecture to ensure data integrity and traceability. By following the Separation of Concerns (SOC) principle, each layer has a dedicated responsibility with no intention of overlap:
 
 🥉 Bronze (Raw): Initial ingestion of source .csv files (ERP & CRM) without modifications.
@@ -10,7 +11,7 @@ This project implements a Medallion Architecture to ensure data integrity and tr
 
 🥇 Gold (Curated): Final business-level transformation. Data is modeled into a user-friendly schema optimized for Power BI/Tableau.
 
-🎯 Project Specifications
+##🎯 Project Specifications
 
 📥 Data Integration
 
