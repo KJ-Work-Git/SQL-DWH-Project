@@ -3,7 +3,7 @@ A modern Data Warehouse solution built with **SQL Server** to consolidate sales 
 
 ---
 
-# 🏗️ ARCHITECTURE
+## 🏗️ ARCHITECTURE
 This project implements a **Medallion Architecture** to ensure data integrity and traceability. By following the **Separation of Concerns (SOC)** principle, each layer has a dedicated responsibility with no intention of overlap:
 
 <img width="1037" height="542" alt="image" src="https://github.com/user-attachments/assets/9188e10c-3edd-4777-8239-5c5741494338" />
@@ -34,7 +34,7 @@ This project implements a **Medallion Architecture** to ensure data integrity an
 
 ---
 
-# 🛠️ TECH STACK
+## 🛠️ TECH STACK
 * **Database:** SQL Server (T-SQL)
 * **Architecture:** Medallion (Bronze, Silver, Gold)
 * **Design Pattern:** Star Schema / Dimensional Modeling
@@ -42,7 +42,7 @@ This project implements a **Medallion Architecture** to ensure data integrity an
 
 ---
 
-# 📜 DOCUMENTATION
+## 📜 DOCUMENTATION
 
 ### 🏗️ The Data Model
 The final **Gold Layer** utilizes a dimensional model to ensure business stakeholders can easily navigate the data.
