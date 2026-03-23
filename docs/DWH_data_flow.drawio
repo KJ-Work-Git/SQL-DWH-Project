@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.6.4">
+  <diagram name="Page-1" id="a2fNwGvez5g_afYuY1L-">
+    <mxGraphModel dx="1426" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="320" width="120" x="10" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sources" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-5" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" value="" vertex="1">
+          <mxGeometry height="36.52" width="45" x="47.5" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ERP" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="236.51999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-7" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" value="" vertex="1">
+          <mxGeometry height="36.52" width="45" x="47.5" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CRM" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="316.52" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="25" y="360" as="sourcePoint" />
+            <mxPoint x="115" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Object Type: CSV" vertex="1">
+          <mxGeometry height="30" width="100" x="20" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Interface: Files in Folders" vertex="1">
+          <mxGeometry height="30" width="105" x="17.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;fontColor=#ffffff;strokeColor=#6D1F00;fillStyle=dashed;" value="" vertex="1">
+          <mxGeometry height="380" width="180" x="200" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Bronze" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-17" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="330" as="sourcePoint" />
+            <mxPoint x="190" y="330.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="crm_cust_info.csv" vertex="1">
+          <mxGeometry height="45" width="140" x="220" y="191.52" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="crm_prd_info.csv" vertex="1">
+          <mxGeometry height="45" width="140" x="220" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="crm_sales_details.csv" vertex="1">
+          <mxGeometry height="45" width="140" x="220" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="erp_loc_a101" vertex="1">
+          <mxGeometry height="45" width="140" x="220" y="427.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="erp_cust_az12" vertex="1">
+          <mxGeometry height="45" width="140" x="220" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="aFaSLjEbrsxa1u6WRq3K-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" value="erp_px_cat_g1v2" vertex="1">
+          <mxGeometry height="45" width="140" x="220" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
