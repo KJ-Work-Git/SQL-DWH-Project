@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="l7UaWK_pFYCnKYnsMDRL-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;dashed=1;fillStyle=auto;fontColor=#ffffff;strokeColor=#006EAF;opacity=10;" value="" vertex="1">
+          <mxGeometry height="410" width="460" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l7UaWK_pFYCnKYnsMDRL-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;dashed=1;fontColor=#ffffff;strokeColor=#005700;opacity=10;" value="" vertex="1">
+          <mxGeometry height="410" width="220" x="510" y="60" as="geometry" />
+        </mxCell>
         <mxCell id="l7UaWK_pFYCnKYnsMDRL-2" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;rounded=1;" value="crm_cust_info" vertex="1">
           <mxGeometry height="90" width="140" x="330" y="170" as="geometry" />
         </mxCell>
@@ -57,6 +63,12 @@
         </mxCell>
         <mxCell id="l7UaWK_pFYCnKYnsMDRL-23" edge="1" parent="1" source="l7UaWK_pFYCnKYnsMDRL-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.043;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;" target="l7UaWK_pFYCnKYnsMDRL-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l7UaWK_pFYCnKYnsMDRL-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;CRM&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l7UaWK_pFYCnKYnsMDRL-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#005700;fillColor=#008a00;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;ERP&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
