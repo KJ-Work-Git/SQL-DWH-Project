@@ -1,62 +1,24 @@
-SELECT cst_key, COUNT(*) 
-FROM(
-SELECT
-    ci.cst_id, 
-    ci.cst_key, 
-    ci.cst_firstname, 
-    ci.cst_lastname, 
-    ci.cst_marital_status, 
-    ci.cst_gndr,
-    ci.cst_create_date,
-    ca.bdate,
-    loc.cntry
-FROM silver.crm_cust_info ci
-LEFT JOIN silver.erp_cust_az12 ca
-ON ci.cst_key = ca.cid
-LEFT JOIN silver.erp_loc_a101 loc
-ON ci.cst_key = loc.cid
-)t
-GROUP BY cst_key
-HAVING COUNT(*) > 1; -- COUNT > 1 serves as Duplicate Check
+/*
+===============================================================================
+DDL Script: Create Gold Views
+===============================================================================
+Script Purpose:
+    This script creates views for the Gold layer in the data warehouse. 
+    The Gold layer represents the final dimension and fact tables (Star Schema)
 
+    Each view performs transformations and combines data from the Silver layer 
+    to produce a clean, enriched, and business-ready dataset.
 
-SELECT DISTINCT 
-    ci.cst_gndr,
-    ca.gen,
-    CASE WHEN ca.gen = 'n/a' THEN ci.cst_gndr -- CRM is the Master
-    ELSE COALESCE(ca.gen, 'n/a')
-    END AS new_gen
-FROM silver.crm_cust_info ci
-LEFT JOIN silver.erp_cust_az12 ca
-ON ci.cst_key = ca.cid;
-
-SELECT prd_key, COUNT(*) 
-FROM (
-SELECT
-	prd.prd_id,
-	prd.cat_id,
-	prd.prd_key,
-	prd.prd_nm,
-	prd.prd_cost,
-	prd.prd_line,
-	cat.cat,
-	cat.subcat,
-	cat.maintenance,
-	prd.prd_start_dt,
-	prd.prd_end_dt,
-	prd.dwh_create_date
-FROM silver.crm_prd_info prd
-LEFT JOIN silver.erp_px_cat_g1v2 cat
-ON prd.cat_id = cat.id
-WHERE prd_end_dt IS NULL -- Only show currently active orders
-)t
-GROUP BY prd_key
-HAVING COUNT(*) > 1 -- Duplicate Check
-
-
--- Creation of Dim Tables
+Usage:
+    - These views can be queried directly for analytics and reporting.
+===============================================================================
+*/
 
 -- Dim Customers
+
+IF OBJECT_ID('gold.dim_customers', 'V') IS NOT NULL
+    DROP VIEW gold.dim_customers;
+GO
 
 CREATE VIEW gold.dim_customers AS
 SELECT
@@ -81,6 +43,9 @@ ON ci.cst_key = loc.cid;
 
 -- Dim Products
 
+IF OBJECT_ID('gold.dim_products', 'V') IS NOT NULL
+    DROP VIEW gold.dim_products;
+GO
 
 CREATE VIEW gold.dim_products AS
 SELECT
@@ -104,6 +69,10 @@ WHERE prd_end_dt IS NULL; -- Only show currently active orders
 
 
 -- Fact Sales
+
+IF OBJECT_ID('gold.fact_sales', 'V') IS NOT NULL
+    DROP VIEW gold.fact_sales;
+GO
 
 CREATE VIEW gold.fact_sales AS
 SELECT
